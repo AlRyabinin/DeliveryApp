@@ -15,3 +15,26 @@ Web-приложение для создания и управления зак�
 - Просмотр списка всех заказов с автоматически сгенерированным номером
 - Детальный просмотр заказа в режиме чтения
 - REST API с валидацией данных
+
+## Быстрый старт
+
+### С помощью Docker
+
+```bash```
+
+git clone [https://github.com/AlRyabinin/Kanban.git](https://github.com/AlRyabinin/DeliveryApp)
+
+cd DeliveryApp
+
+docker-compose up -d --build
+
+## Скриншоты
+
+![Main Page](./Screenshots/Main.png)
+*Основная страница*
+
+![Create form](./Screenshots/CreateOrder.png)
+*Форма создания нового заказа*
+
+![Details form](./Screenshots/OrderDetails.png)
+*Форма с деталями заказа*
