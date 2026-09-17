@@ -1,0 +1,29 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.vs
+.vscode
+*.suo
+*.user
+
+# Build outputs
+bin/
+obj/
+dist/
+node_modules/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
